@@ -13,7 +13,8 @@ Just copy contents of MiLight_script.php to any new script in Majordomo. Run the
 
 For example: `http://192.168.0.1/objects/?script=MiLight_script&ip=192.168.0.200&port=5987&chan=01&cmd=on` will send command to controller 192.168.0.200 to switch the lamp on channel 01.<br/>
 `http://192.168.0.1/objects/?script=MiLight_script&ip=192.168.0.200&port=5987&chan=01&cmd=lvl&level=50` will send command to controller 192.168.0.200 to set the brishtness level 50% on the lamp on channel 01.
-------------------------------------------------------------------------------------------------------------------
+
+---
 
 # milightv6
 Интеграция контроллера Milight v.6 в Majordomo
