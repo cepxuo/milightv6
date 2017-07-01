@@ -9,7 +9,7 @@ Just copy contents of MiLight_script.php to any new script in Majordomo. Run the
 * port=port of controler (mostly used 5987),
 * chan=channel (01, 02, 03 or 04),
 * cmd=command (on, off or lvl),
----
+<br/>
 In case of **lvl** command you need to specify brightness level with option `level=brightness level`.
 
 ------------------------------------------------------------------------------------------------------------------
@@ -25,5 +25,5 @@ In case of **lvl** command you need to specify brightness level with option `lev
 * port=порт контроллера (чаще всего 5987),
 * chan=канал (01, 02, 03 или 04),
 * cmd=команда (on, off или lvl),
----
+<br/>
 В случае команды **lvl** вам необходимо также указать уровень яркости через параметр `level=уровень яркости`.
