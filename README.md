@@ -1,5 +1,4 @@
-# milightv6
-Milight v.6 light controller integration with Majordomo
+# Milight v.6 light controller integration with [Majordomo](http://majordomo.smartliving.ru)
 
 This script sends comands to MiLight v6 controllers.
 
@@ -16,8 +15,7 @@ For example: `http://192.168.0.1/objects/?script=MiLight_script&ip=192.168.0.200
 
 ---
 
-# milightv6
-Интеграция контроллера Milight v.6 в Majordomo
+# Интеграция контроллера Milight v.6 в [Majordomo](http://majordomo.smartliving.ru)
 
 Данный скрипт отправляет команды контроллеру Milight v.6
 
