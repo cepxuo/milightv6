@@ -3,7 +3,7 @@
 This script sends comands to MiLight v6 controllers.
 
 INSTALLATION
-Just copy contents of MiLight_script.php to any new script in Majordomo. Run the script with options:
+Just copy contents of _MiLight_script.php_ to any new script in Majordomo. Run the script with options:
 * ip=IP address of controller,
 * port=port of controler (mostly used 5987),
 * chan=channel (01, 02, 03 or 04),
@@ -20,7 +20,7 @@ For example: `http://192.168.0.1/objects/?script=MiLight_script&ip=192.168.0.200
 Данный скрипт отправляет команды контроллеру Milight v.6
 
 УСТАНОВКА
-Скопируйте содержание файла MiLight_script.php в любой новый сценарий. Вызывайте этот сценарий со следующими параметрами:
+Скопируйте содержание файла _MiLight_script.php_ в любой новый сценарий. Вызывайте этот сценарий со следующими параметрами:
 * ip=IP адрес контроллера,
 * port=порт контроллера (чаще всего 5987),
 * chan=канал (01, 02, 03 или 04),
