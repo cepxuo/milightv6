@@ -1,3 +1,4 @@
+```php
 // Прописываем начальные переменные и переносим в них параметры из строки вызова скрипта
 $ip = $params["ip"];
 $hello = hex2bin("200000001602623AD5EDA301AE082D466141A7F6DCAFD3E600001E");
@@ -42,3 +43,4 @@ $out = hex2bin($outhex); // конвертируем её в BIN
 socket_sendto($sock, $out, strlen($out), 0, $ip, $port);
 socket_recvfrom($sock, $buf, 16, 0, $ip, $port); // Так как я всегда отправляю команды с SequenceID = 1, то ответ от контроллера не обрабатываю
 socket_close($sock);
+```
